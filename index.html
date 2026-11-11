@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>极简词典 - 支持</title>
+<style>
+  :root {
+    --bg: #F0EEE6;
+    --card: #FAF7F1;
+    --accent: #CC785C;
+    --text: #3A332C;
+    --text-secondary: #6B6054;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.7;
+  }
+  .wrap {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 48px 20px 80px;
+  }
+  .title {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 4px;
+  }
+  .subtitle {
+    color: var(--text-secondary);
+    margin-bottom: 36px;
+  }
+  .card {
+    background: var(--card);
+    border-radius: 16px;
+    padding: 24px 28px;
+    margin-bottom: 20px;
+    border: 1px solid rgba(204,120,92,0.18);
+  }
+  h2 {
+    font-size: 18px;
+    margin: 0 0 10px;
+    color: var(--accent);
+  }
+  p { margin: 0 0 8px; }
+  a { color: var(--accent); }
+  .footer {
+    margin-top: 40px;
+    color: var(--text-secondary);
+    font-size: 13px;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="title">极简词典</div>
+  <div class="subtitle">英汉词典 · AI 词根记忆</div>
+
+  <div class="card">
+    <h2>关于</h2>
+    <p>极简词典是一款专注查词体验的英汉词典 App:输入单词即可获得清晰释义,遇到生词可生成 AI 词根记忆法,并将常用词收藏进你自己的词库。</p>
+  </div>
+
+  <div class="card">
+    <h2>常见问题</h2>
+    <p><strong>搜索没有结果 / 返回很慢?</strong><br>部分生僻词或新造词需要联网调用 AI 生成释义,请确认网络连接正常后重试。</p>
+    <p><strong>收藏的单词会丢失吗?</strong><br>词库数据保存在你的设备本地,卸载 App 会清除数据,请注意不要误删。</p>
+  </div>
+
+  <div class="card">
+    <h2>联系我们</h2>
+    <p>使用中遇到问题或有建议,欢迎通过邮箱联系:<br>
+    <a href="mailto:wytizxy@gmail.com">wytizxy@gmail.com</a></p>
+  </div>
+
+  <div class="footer">
+    <a href="privacy.html">隐私政策</a><br>
+    词典数据来自 <a href="https://github.com/skywind3000/ECDICT" target="_blank">ECDICT</a> 项目（MIT License）
+  </div>
+</div>
+</body>
+</html>
